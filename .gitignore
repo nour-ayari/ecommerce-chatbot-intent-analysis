@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+data/
+outputs/
+results/
+
+# Models (TRÈS IMPORTANT)
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.pkl
+
+# HuggingFace / SetFit artifacts
+*.json
+!config*.json   # garder configs utiles si léger
+!tokenizer*.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
